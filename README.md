@@ -62,9 +62,17 @@ Make sure to check “Enable Map tips” (QGIS 3.32). If using the old version o
 
 In the Layer Properties Dialog, type in the following part to the box under “HTML Map Tip”:
 
-![image](https://github.com/yingkui2003/ICE-DTools/assets/24683137/8248bdb6-9bd9-4108-bcdd-e0b96501b298)
+```
+<style>
+   body {width:800px!;}
+   div {width:800px;}
+   img { width:100%; max-width:500px; }
+</style>
+<div>
+   <img src=[% "CamelPlot" %] >
+</div>
 
-
+```
 
 Click OK. This will show the camelplot as a map tip when the cursor is close to each site (the site layer needs to be selected). The following screenshot is an example.
  
