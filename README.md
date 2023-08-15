@@ -80,4 +80,25 @@ Click OK. This will show the camelplot as a map tip when the cursor is close to 
 
 
 
+# How to download and use this toolbox in ArcGIS or ArcGIS Pro
+The github site includes an ArcGIS Pro toolbox folder with the python codes and ArcGIS Pro toolbox and a QGIS plugin folder with the QGIS plugin folder and files. The user can click "Code" (green color) on the right side of the github page and choose Download Zip.
 
+![image](https://github.com/yingkui2003/ICE-DTools/assets/24683137/e11aee09-65b7-40d4-b119-69cba359c135)
+
+
+A zip file of the whole github folder will be downloaded to the local computer. Unzip this file will create a ICE-DTools-main folder with all folder and files. Then, the user can follow the instructions in the folder and Github page to use the ArcGIS Pro toolbox or QGIS plugin.   
+
+# Contact info
+Yingkui Li
+
+Department of Geography & Sustainability
+
+University of Tennessee
+
+Knoxville, TN 37996
+
+Email: yli32@utk.edu
+
+Website: https://geography.utk.edu/about-us/faculty/dr-yingkui-li/
+
+Google Scholar: https://scholar.google.com/citations?user=JoNuyCMAAAAJ&hl=en&oi=ao
