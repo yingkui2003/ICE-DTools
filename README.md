@@ -1,4 +1,4 @@
-#How to install and use the ICE-D Analysis plugin in QGIS
+# How to install and use the ICE-D Analysis plugin in QGIS
 1. Unzip the iced_camelplots.zip file to a folder in your computer. Find the “iced_camelplots” folder and check if there are a set of folders and files (similar to the following screenshot) within the folder:
 
 ![image](https://github.com/yingkui2003/ICE-DTools/assets/24683137/cb4180ed-c5b3-4869-b656-c59ce1dd744b)
