@@ -35,10 +35,11 @@ You should be able to see the plugin in three locations: the Plugin menu, the to
 ![image](https://github.com/yingkui2003/ICE-DTools/assets/24683137/fd75c697-10bd-4ba0-9bc3-82b852f6beb6)
  
 
-# You can run the “Camel Plots” tool from one of these three locations.
+You can run the “Camel Plots” tool from one of these three locations.
 
  
-How to use the “Camel Plots” tool and view the camelplots in QGIS
+# How to use the “Camel Plots” tool and view the camelplots in QGIS
+
 The following screenshot shows the interface of the “Camel Plots” tool after running it.
 
 ![image](https://github.com/yingkui2003/ICE-DTools/assets/24683137/37dec74d-0da4-4616-b2f7-d184891d4bb5)
