@@ -1,4 +1,29 @@
-# How to install and use the ICE-D Analysis plugin in QGIS
+# A) ArcGIS Pro Toolbox
+The ArcGIS Pro toolbox can be directly used in ArcGIS Pro after adding a folder connection of the ArcGIS Pro toolbox folder to the ArcGIS Pro project. This toolbox includes three tools:
+
+![image](https://github.com/yingkui2003/ICE-DTools/assets/24683137/9f1e43a8-1eae-4aa1-b86f-5a29a68e6bae)
+
+The “Retrieve ICE-D Data From HeidiSQL Connection” tool is used to retrieve exposure ages (ICE-D Alpine) based on specified latitude and longitude ranges. The user also needs to select a scaling model for the ages (St, Lm, or LSDn).
+
+![image](https://github.com/yingkui2003/ICE-DTools/assets/24683137/72b1d02b-e382-43b2-b032-d7d82f4f13e7)
+
+Note that this tool is limited to the computer that has the HeidiSQL and ICE-D database installed. The user also needs to keep the ICE-D database open to run this tool. In addition, the pymysql, shapely, and fiona libraries are also needed to be installed in the ArcGIS Pro python version. To do that, open the “Python Command Prompt” under the ArcGIS Pro program folder by clicking the Microsoft Window icon on the left-bottom bar of the computer and find the ArcGIS or ArcGIS Pro app folder. Then, run the following commands:
+```
+pip install pymysql
+pip install shapely
+pip install fiona
+
+```
+The ICE-D dataset can be imported into ArcGIS Pro as a WFS layer. However, ArcGIS Pro uses a limit of 3000 for the ICE-D dataset. To retrieve more exposure ages, a new tool, “Retrieve ICE-D Data From WFS”, is developed. The users can select a dataset from ICE-D and provide a maximum number of features to retrieve the exposure ages as a feature class in ArcGIS Pro.
+
+![image](https://github.com/yingkui2003/ICE-DTools/assets/24683137/9626dc91-2e92-4f82-908e-6f570f681138)
+
+The “Create Camel Plots based on ICE-D ExpAges” tool is developed to create the camelplot for each site based on multiple exposure ages. All camelplots are saved into a folder and a site feature class is created to save the summary info of the exposure ages, such as mean, std, variances, skewness, and chi-square values. Each camelplot is also associated with its corresponding site so that the plot can be viewed interactively in ArcGIS Pro. The following is a screenshot of the interface of this tool in ArcGIS Pro.
+
+![image](https://github.com/yingkui2003/ICE-DTools/assets/24683137/febd08cf-58ea-415e-b5cb-c103ef8a3a94)
+
+# B) QGIS Plugin
+How to install and use the ICE-D Analysis plugin in QGIS
 1. Unzip the iced_camelplots.zip file to a folder in your computer. Find the “iced_camelplots” folder and check if there are a set of folders and files (similar to the following screenshot) within the folder:
 
 ![image](https://github.com/yingkui2003/ICE-DTools/assets/24683137/cb4180ed-c5b3-4869-b656-c59ce1dd744b)
