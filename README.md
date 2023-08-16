@@ -23,12 +23,12 @@ The “Create Camel Plots based on ICE-D ExpAges” tool is developed to create 
 ![image](https://github.com/yingkui2003/ICE-DTools/assets/24683137/febd08cf-58ea-415e-b5cb-c103ef8a3a94)
 
 # B) QGIS Plugin
-How to install and use the ICE-D Analysis plugin in QGIS
-1. Unzip the iced_camelplots.zip file to a folder in your computer. Find the “iced_camelplots” folder and check if there are a set of folders and files (similar to the following screenshot) within the folder:
+## How to install and use the ICE-D Analysis plugin in QGIS
+Find the “iced_camelplots” folder after unzipping the downloaded file from GitHub and check if there are a set of folders and files (similar to the following screenshot) within the folder:
 
 ![image](https://github.com/yingkui2003/ICE-DTools/assets/24683137/cb4180ed-c5b3-4869-b656-c59ce1dd744b)
 
-2. Open QGIS and under the “Setting” menu, choose User profile -> Open Active Profile Folder. See the following screenshot.
+Open QGIS and under the “Setting” menu, choose User profile -> Open Active Profile Folder. See the following screenshot.
 
 ![image](https://github.com/yingkui2003/ICE-DTools/assets/24683137/f0f8f8b6-0e43-47eb-a983-06fd4f52cc7d)
 
@@ -63,7 +63,7 @@ You should be able to see the plugin in three locations: the Plugin menu, the to
 You can run the “Camel Plots” tool from one of these three locations.
 
  
-# How to use the “Camel Plots” tool and view the camelplots in QGIS
+## How to use the “Camel Plots” tool and view the camelplots in QGIS
 
 The following screenshot shows the interface of the “Camel Plots” tool after running it.
 
